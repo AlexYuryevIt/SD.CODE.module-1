@@ -131,6 +131,9 @@
     margin-top: 90px;
 }
 
+.projects_card:nth-child(1) {
+    margin-top: 30px;
+}
 
 .projects_card_text {
     margin-top: 15px;
