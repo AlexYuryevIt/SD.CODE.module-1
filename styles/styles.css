@@ -218,7 +218,7 @@
     position: relative;
     width: 1400px;
     height: 717px;
-    background-image: url('/resources/project_example_bg.jpg');
+    background-image: url('../resources/project_example_bg.jpg');
 }
 
 .project-example_text {
