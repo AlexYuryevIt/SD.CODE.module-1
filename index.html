@@ -18,10 +18,10 @@
         <img class="header_logo" src="./resources/metrica_logo.png" alt="metrica_logo">
 
         <nav class="nav">
-            <a href="#" class="nav_link">О нас</a>
-            <a href="#" class="nav_link">Проекты</a>
-            <a href="#" class="nav_link">Услуги</a>
-            <a href="#" class="nav_link">Контакты</a>
+            <a href="#about" class="nav_link">О нас</a>
+            <a href="#projects" class="nav_link">Проекты</a>
+            <a href="#services" class="nav_link">Услуги</a>
+            <a href="#contacts" class="nav_link">Контакты</a>
         </nav>
 
     </header>
@@ -36,14 +36,14 @@
             </figure>
         </section>
 
-        <section class="about">
+        <section class="about" id="about">
             <h2 class="about_header">О нас</h2>
             <p class="about_text">Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. К нам обращаются за уютом, индивидуальными решениями и практичностью. Находим конструктивные решения для каждого интерьера, вплоть до каждой детали — нацелены на результат.</p>
             
             <button class="about-btn">Посмотреть услуги</button>
         </section>
 
-        <section class="projects">
+        <section class="projects" id="projects">
             <h2 class="projects_header">Проекты</h2>
 
             <div class="projects_cards">
@@ -71,33 +71,67 @@
             
         </section>
 
-        <section class="services">
+        <section class="services" id="services">
             <h2 class="services_header">Услуги</h2>
 
-            <div class="services-card">
-                <figure>
-                    <img src="./resources/services-1.jpg" alt="">
-                    <figcaption>Планировочное решение — от 2500₽/м²</figcaption>
-                </figure>
+            <div class="services_cards">
+                <div class="services_item">
+                    <img src="./resources/services-1.jpg" alt="measurment_image">
+                    <h3 class="services_item_text">Планировочное решение — от 2500₽/м²</h3>
+                </div>
 
-                <figure>
-                    <img src="./resources/services-2.jpg" alt="">
-                    <figcaption>Дизайн-проект — от 3000₽/м²</figcaption>
-                </figure>
+                <div class="services_item">
+                    <img src="./resources/services-2.jpg" alt="palette">
+                    <h3 class="services_item_text">Дизайн-проект — от 3000₽/м²</h3>
+                </div>
 
-                <figure>
-                    <img src="./resources/services-3.jpg" alt="">
-                    <figcaption>Авторский надзор — от 30 000₽ в месяц</figcaption>
-                </figure>
+                <div class="services_item">
+                    <img src="./resources/services-3.jpg" alt="contoller">
+                    <h3 class="services_item_text">Авторский надзор — от 30 000₽ в месяц</h3>
+                </div>
 
-                <figure>
-                    <img src="./resources/services-4.jpg" alt="">
-                    <figcaption>Комплектация — 5% от стоимости спецификации</figcaption>
-                </figure>
+                <div class="services_item">
+                    <img src="./resources/services-4.jpg" alt="warehouse_photo">
+                    <h3 class="services_item_text">Комплектация — 5% от стоимости спецификации</h3>
+                </div>
             </div>
 
         </section>
+
+        <section class="project-example">
+            <p class="project-example_text">Проект  Двухкомнтаной квартиры в ЖК Лесной Пейзаж</p>
+        </section>
+
+        <section class="contacts" id="contacts">
+            <div class="contacts_card">
+                <img src="./resources/iphone-img.svg" alt="phone_icon" class="contacts_card_img">
+                <h2 class="contacts_header">Контакты</h2>
+                <a href="#" class="contacts_phone-number">+7 935  895-45-35</a>
+                <a href="#" class="contacts-email">hello@mail.com</a>
+                <div class="contacts-email_underline"></div>
+            </div>
+        </section>
     </div>
+
+    <footer class="footer">
+        <nav class="footer_links">
+            <ul class="footer_list">
+                <li class="footer_item">
+                    <a href="" class="footer_link">О нас</a>
+                </li>
+                <li class="footer_item">
+                    <a href="" class="footer_link">Проекты</a>
+                </li>
+                <li class="footer_item">
+                    <a href="" class="footer_link">Услуги</a>
+                </li>
+                <li class="footer_item">
+                    <a href="" class="footer_link">Контакты</a>
+                </li>
+            </ul>
+            <p class="footer_text">студия дизайна интерьера Метрика — 2023</p>
+        </nav>
+    </footer>
 
 </body>
 </html>
