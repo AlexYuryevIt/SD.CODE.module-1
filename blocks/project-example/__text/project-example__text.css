@@ -1,0 +1,11 @@
+.project-example__text {
+    position: absolute;
+    left: 125px;
+    bottom: 60px;
+    max-width: 443px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}

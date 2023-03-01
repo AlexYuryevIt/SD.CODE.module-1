@@ -1,0 +1,49 @@
+@import url(../vendor/reset.css);
+@import url(../vendor/fonts.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__nav/header__nav.css);
+@import url(../blocks/header/__nav-link/header__nav-link.css);
+
+@import url(../blocks/description/description.css);
+@import url(../blocks/description/__heading/description__heading.css);
+@import url(../blocks/description/__illustration/description__illustration.css);
+@import url(../blocks/description/__img/description__img.css);
+@import url(../blocks/description/__text/description__text.css);
+
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__heading/about__heading.css);
+@import url(../blocks/about/__text/about__text.css);
+@import url(../blocks/about/__btn/about__btn.css);
+
+@import url(../blocks/projects/projects.css);
+@import url(../blocks/projects/__heading/projects__heading.css);
+@import url(../blocks/projects/__item/projects__item.css);
+@import url(../blocks/projects/__item-text/projects__item-text.css);
+@import url(../blocks/projects/__item-link/projects__item-link.css);
+@import url(../blocks/projects/__link/projects__link.css);
+
+@import url(../blocks/services/services.css);
+@import url(../blocks/services/__heading/services__heading.css);
+@import url(../blocks/services/__list/services__list.css);
+@import url(../blocks/services/__item/services__item.css);
+@import url(../blocks/services/__item-text/services__item-text.css);
+
+@import url(../blocks/project-example/project-example.css);
+@import url(../blocks/project-example/__text/project-example__text.css);
+
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contacts/__card/contacts__card.css);
+@import url(../blocks/contacts/__card-img/contacts__card-img.css);
+@import url(../blocks/contacts/__heading/contacts__heading.css);
+@import url(../blocks/contacts/__phone-number/contacts__phone-number.css);
+@import url(../blocks/contacts/__email/contacts__email.css);
+@import url(../blocks/contacts/__email-underline/contacts__email-underline.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__text/footer__text.css);

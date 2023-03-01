@@ -1,0 +1,10 @@
+.description__heading {
+    width: 956px;
+    min-height: 120px;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    color: #121212;
+    text-align: left;
+}
