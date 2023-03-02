@@ -1,5 +1,8 @@
 .contacts__email {
     margin-top: 30px;
+    display: block;
+    font-family: 'Manrope';
+    font-style: normal;
     font-weight: 400;
     font-size: 60px;
     line-height: 60px;

@@ -1,5 +1,8 @@
 .contacts__phone-number {
     margin-top: 33px;
+    display: block;
+    font-family: 'Manrope';
+    font-style: normal;
     font-weight: 400;
     font-size: 60px;
     line-height: 60px;
