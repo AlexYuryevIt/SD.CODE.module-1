@@ -1,0 +1,7 @@
+.projects__item {
+    margin-top: 90px;
+}
+
+.projects__item:nth-child(1) {
+    margin-top: 30px;
+}
