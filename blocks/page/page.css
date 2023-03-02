@@ -1,5 +1,10 @@
 .page {
-    max-width: 1400px;
+    width: 1400px;
     margin: 0 auto;
     font-family: 'Manrope', sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
