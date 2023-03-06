@@ -9,8 +9,6 @@
     text-decoration: none;
 }
 
-.header__nav-link:nth-child(1) {
-    text-decoration: underline;
-    color: #121212;
-    opacity: .5;
+.header__nav-link:hover {
+    border-bottom: 1px solid #121212;
 }

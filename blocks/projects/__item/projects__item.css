@@ -1,7 +1,7 @@
 .projects__item {
-    margin-top: 90px;
+    margin-top: 88px;
 }
 
-.projects__item:nth-child(1) {
-    margin-top: 30px;
+.projects__item:first-child {
+    margin-top: 28px;
 }

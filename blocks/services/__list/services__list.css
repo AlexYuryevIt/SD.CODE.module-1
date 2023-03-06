@@ -1,3 +1,4 @@
 .services__list {
-    margin: 34px 125px 0;
+    max-width: 1150px;
+    margin: 0 auto;
 }

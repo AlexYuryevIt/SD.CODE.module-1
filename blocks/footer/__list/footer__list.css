@@ -1,7 +1,6 @@
 .footer__list {
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-template-rows: auto;
+    margin-bottom: 90px;
+    display: flex;
     gap: 53px;
     justify-content: center;
     list-style: none;

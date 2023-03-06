@@ -1,3 +1,8 @@
 .services__item {
-    margin-top: 60px;
+    margin-bottom: 58px;
+}
+
+.services__item:last-child {
+    margin-bottom: 0;
+    padding-bottom: 150px;
 }
