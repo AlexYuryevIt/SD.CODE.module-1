@@ -6,5 +6,8 @@
     letter-spacing: -0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
-    opacity: 0.5;
+}
+
+.footer__link:hover {
+	opacity: 0.5;
 }
