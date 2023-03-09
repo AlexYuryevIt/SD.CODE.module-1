@@ -10,4 +10,5 @@
 
 .header__nav-link:hover {
     border-bottom: 1px solid #121212;
+    opacity: 0.5;
 }

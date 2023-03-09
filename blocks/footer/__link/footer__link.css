@@ -5,5 +5,8 @@
     line-height: 25px;
     text-transform: uppercase;
     color: #FFFFFF;
-    opacity: 0.5;
+}
+
+.footer__link:hover {
+	opacity: 0.5;
 }
