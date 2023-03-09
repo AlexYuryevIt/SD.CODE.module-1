@@ -14,9 +14,10 @@
 .contacts__email::after {
     content: '';
     position: absolute;
+    bottom: -8px;
+    left: 0;
     margin-top: 6px;
-    width: 100%;
+    width: 408px;
     border: 1px solid #121212;
-    opacity: 0.5;
     transform: rotate(180deg);
 }
